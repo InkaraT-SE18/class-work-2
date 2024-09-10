@@ -1,0 +1,35 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.header, .content, .footer {
+    border: 2px solid black;
+    padding: 20px;
+    margin: 10px;
+    height: 150px;
+    width: 30%;
+    text-align: center;
+}
+
+.header {
+    background-color: lightblue;
+    position: relative;
+}
+
+.content {
+    background-color: lightgreen;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: lightcoral;
+    border-radius: 10px;
+}
